@@ -1,0 +1,115 @@
+<!-- ctrl+/ -->
+<!-- html:5 or ! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div style="background: red;">
+            chứa logo + search +icon
+        </div>
+        <div style="background: blue;">
+            chứa menu
+        </div>
+        <div style="display: flex;">
+            <div style="background: green;
+            width: 70%">left</div>
+            <div style="background: purple;
+            width: 30%;">right</div>
+        </div>
+    </div>
+    <hr/>
+    <!-- thẻ mở rộng-->
+    <h1 id="demo">this is the tag </h1>
+    <p>xin chao</p>
+    <span>toi la phong</span>
+    <a href="https://web1s.com/member" target="_blank">bấm vào</a>
+    <button disabled onclick="alert('ban chac chan muon dang nhap khong?')">dang nhap</button>
+
+    <!-- thẻ tự đóng-->
+    <img
+    width="20%"
+    height="20%"
+    src="https://i.pinimg.com/736x/eb/58/cc/eb58cc5cfecde2911c1bd9bb8df69ce7.jpg"/>
+
+    <!--hr giúp tạo ra 1 đường line-->
+    <hr />
+    <!-- br giúp cta xuống dòng-->
+    <p>xin chao các <br/>bạn nhé</p>
+
+    <!-- nhóm thẻ block-->
+    <!-- luôn lấy toàn bộ chiều rộng kể-->
+    <!--nhiều thẻ block thì nó xếp thành hàng dọc-->
+
+    <div>
+        <p>
+            xin chào các bn nha
+        </p>
+    </div>
+
+    <!-- thẻ inline-->
+    <!-- chiều rộng và chiều cao = nd chứa nó-->
+    <!-- nhiều thẻ inline sẽ nằm trên 1 hàng-->
+    <!-- hạn chế về css (style) chiều cao và chiều rộng-->
+    <span>đây là 1 cái tag</span>
+
+    <!--form-->
+    <form>
+        <label for="userName">
+            họ và tên
+        </label>
+        <input id="userName" type="text"/>
+        <input type="password"/>
+        <input type="number"/>
+
+    </form>
+
+    <!--video-->
+
+    <video controls>
+        <source src="" type="video/mp4"/>
+    </video>
+
+    <audio controls>
+        <source src="Test 01_Part 1_1.mp3"/>
+    </audio>
+
+    <!--ul đi với li-->
+    <ul type="square">
+        <li>
+            php
+        </li>
+        <li>
+            c++
+        </li>
+        <li>
+            python
+        </li>
+    </ul>
+    <!-- ol li-->
+    <ol start="20" type="i">
+        <li>
+            php
+        </li>
+        <li>
+            c++
+        </li>
+        <li>
+            python
+        </li>
+    </ol>
+    <a href="#demo">bay lên đầu</a>
+
+    <!-- thẻ nhúng -> nhúng từ 1 trang web khác-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.2926381717452!2d105.784862975055!3d20.98090348065645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1694358041771!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+        
+    <!--mục đích thẻ alt lm gì-->
+    <!-- + thêm thông tin cho thẻ img-->
+    <!--+ hiển thị ra ảnh khi bị lỗi-->
+    <!-- +khả năng tìm kiếm ở google tốt hơn-->
+</body>
+</html>
