@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>demo form tag</h1>
+    <!-- text input -->
+    <p>
+    <!-- cho phép nhập bất cứ kí tự nào -->
+    <input value="" type="text" name="userName" placeholder="Type username"/>
+    </p>
+
+    <p>
+    <!-- có thể hiển thị nếu mình không nhập đúng mail -->
+    <input type="email" name="email" placeholder="Type your email"/>
+    </p>
+
+    <p>
+        <input type="number" placeholder="Type number" max="10"/>
+    </p>
+
+    <p>
+        <input type="file" />
+    </p>
+
+    <p>
+        <input type="date" />
+    </p>
+
+    <p>
+        <input type="checkbox" checked/> Do you want to learn programing?
+    </p>
+    <!-- giá trị của nó là true/false (yes or no) -->
+    <!-- ko có value sẽ có checked 
+    checked là luôn luôn yes -->
+
+    <p>
+        <input type="radio" name="gioi tinh"/> male
+        <input type="radio" name="gioi tinh"/> female
+        <!-- chỉ chọn 1 cái duy nhất -->
+        <!-- chọn nhiều thì dùng checkbox -->
+    </p>
+
+    <!-- khác nhau giữa radio và checkbox -->
+    <!-- radio chỉ có thể thực hiện dưới dạng danh sách -->
+    <!-- checkbox dưới dạng tùy chọn, trong khi radio bắt buộc chọn
+    nếu muốn bỏ chọn thì phải chọn cái khác -->
+
+    <p><input type="range" value="50"/></p>
+
+    <p><input type="color"/></p>
+
+    <!-- nhiều data nên dùng select -->
+    <select>
+        <option value="HN" selected>Ha noi</option>
+        <option value="HP">Hai phong</option>
+        <option value="HCM">Ho chi minh</option>
+    </select>
+
+    <textarea cols="30" rows="10"></textarea>
+
+    <p>
+        <hr/>
+    </p>
+
+    <h1>login</h1>
+
+    <p><input type="text" placeholder="Type your name"/></p>
+    <p><input type="password" placeholder="Type your password"/></p>
+    <p><button>login</button></p>
+
+</body>
+</html>
