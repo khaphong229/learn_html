@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box_total {
+        padding: 15px;
+        background: yellow;
+        /* height: 500px; */
+    }
+    .box_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: red;
+        height: 50px;
+        margin-bottom: 15px;
+    }
+    .main {
+        display: flex;
+        gap: 15px;
+    }
+    .main .box_2 {
+        width: 20%;
+        background: purple;
+    }
+    .main .box_3 {
+        flex-grow: 1;
+        background: blue;
+    }
+    .main .common {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+</style>
+
+<body>
+    <div class="box_total">
+        <div class="box_1">box 1</div>
+        <div class="main">
+            <div class="box_2 common">box 2</div>
+            <div class="box_3 common">box 3</div>
+        </div>
+    </div>
+</body>
+</html>
